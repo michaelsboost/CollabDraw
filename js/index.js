@@ -3,7 +3,7 @@ $(document).ready(function() {
   var win = $(window),
         foo = $(".typer");
 
-  foo.typer(["Collaborative drawing", "Is no longer", "Platform dependant""<a href='app/'><img src='img/CollabDraw.svg'></a><br><a class='launch' href='app/'>Launch</a>"], {
+  foo.typer(["Collaborative drawing", "Is no longer", "Platform dependant", "<a href='app/'><img src='img/CollabDraw.svg'></a><br><a class='launch' href='app/'>Launch</a>"], {
       endless: false
   });
   
