@@ -8,8 +8,8 @@ html, body {
 }
 body {
   font: 300 15px/1.5 'museo-sans', 'Open Sans', sans-serif;
-  color: #eef;
-  background: rgb(237, 189, 153);
+  color: #000;
+  background: #fff;
 }
 .launch {
   /* Logo BG #8A0 */
@@ -42,7 +42,6 @@ a:active {
   background: -ms-radial-gradient(center, ellipse cover, #fff 0%, #f6f6f6 47%, #ededed 100%);
   background: radial-gradient(ellipse at center, #fff 0%, #f6f6f6 47%, #ededed 100%);
   filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100, finishopacity=90, style=2);
-  color: #000;
   font-family: "Numans", latin;
 }
 .introduction h1, .introduction h2 {
