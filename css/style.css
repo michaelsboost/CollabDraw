@@ -12,10 +12,12 @@ body {
   background: rgb(237, 189, 153);
 }
 .launch {
+  /* Logo BG #8A0 */
   color: #fff;
   background: #000;
   border-radius: 32px;
   padding: .25em 1em;
+  text-decoration: none;
 }
 a:active {
   outline: 0;
