@@ -1,0 +1,67 @@
+@import url("imports.css");
+
+/* Global Settings */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  font: 300 15px/1.5 'museo-sans', 'Open Sans', sans-serif;
+  color: #eef;
+  background: rgb(237, 189, 153);
+}
+.launch {
+  color: #fff;
+  background: #000;
+  border-radius: 32px;
+  padding: .25em 1em;
+}
+a:active {
+  outline: 0;
+}
+
+/* Display Area */
+.introduction {
+  height: 100%;
+  cursor: default;
+  text-align: center;
+  background: #fff;
+  background: -moz-radial-gradient(center, ellipse cover, #fff 0%, #f6f6f6 47%, #ededed 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #fff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+  background: -webkit-radial-gradient(center, ellipse cover, #fff 0%, #f6f6f6 47%, #ededed 100%);
+  background: -o-radial-gradient(center, ellipse cover, #fff 0%, #f6f6f6 47%, #ededed 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #fff 0%, #f6f6f6 47%, #ededed 100%);
+  background: radial-gradient(ellipse at center, #fff 0%, #f6f6f6 47%, #ededed 100%);
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100, finishopacity=90, style=2);
+  color: #000;
+  font-family: "Numans", latin;
+}
+.introduction h1, .introduction h2 {
+  color: #6af;
+  font-weight: normal;
+  text-shadow: -2px -2px 2px #fff, 0 0 2px #000;
+}
+
+article {
+  display: table;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+section {
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+img {
+  width: 50%;
+}
+@media all and (max-width:500px) {
+  img {
+    width: 80%;
+  }
+}
