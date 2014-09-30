@@ -8,7 +8,6 @@ html, body {
 }
 body {
   font: 300 15px/1.5 'museo-sans', 'Open Sans', sans-serif;
-  color: #000;
   background: #fff;
 }
 .launch {
@@ -43,6 +42,7 @@ a:active {
   background: radial-gradient(ellipse at center, #fff 0%, #f6f6f6 47%, #ededed 100%);
   filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100, finishopacity=90, style=2);
   font-family: "Numans", latin;
+  color: #000;
 }
 .introduction h1, .introduction h2 {
   color: #6af;
