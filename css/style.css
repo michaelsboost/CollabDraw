@@ -19,6 +19,12 @@ body {
   padding: .25em 1em;
   text-decoration: none;
 }
+.launch:hover {
+  background: #8A0;
+}
+.launch:active {
+  background: #403DD4;
+}
 a:active {
   outline: 0;
 }
